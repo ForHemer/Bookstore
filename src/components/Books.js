@@ -13,7 +13,7 @@ const Books = () => (
         title="The Name of the Rose"
         author="Umberto Eco"
         categories="Novel"
-      />      
+      />
       <ItemBook
         title="Capital in the Twenty-First Century"
         author="Suzanne Collins"
