@@ -5,19 +5,19 @@ const Books = () => (
   <section className="container">
     <div>
       <ItemBook
-        title="A Farewell to Arms"
-        author="Ernest Hemingway"
-        categories="Novel"
+        title="The Hunger Games"
+        author="Suzanne Collins"
+        categories="Action"
       />
       <ItemBook
         title="The Name of the Rose"
         author="Umberto Eco"
         categories="Novel"
-      />
+      />      
       <ItemBook
-        title="ALLAH IS NOT OBLIGED"
-        author="Ahmadou Kourouma"
-        categories="Novel"
+        title="Capital in the Twenty-First Century"
+        author="Suzanne Collins"
+        categories="Economy"
       />
     </div>
     <Form />
