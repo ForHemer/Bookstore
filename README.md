@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Bookstore
-**Bookstore* is a website that allows users to:
+**Bookstore** is a website that allows users to:
 - Display a list of books.
 - Add a book.
 - Remove a selected book.
 
 ## Screenshot
 
+![Screenshot from 2022-03-25 20-45-40](https://user-images.githubusercontent.com/88809610/160217978-c357fc1c-6f80-47b8-ac1d-bd83acd4f675.png)
 
 
  ## Built With
