@@ -1,6 +1,6 @@
 const Categories = () => (
   <section className="categories-container">
-    <h2>Under construction</h2>
+    <button type="button" className="check-status">check status</button>
   </section>
 );
 
