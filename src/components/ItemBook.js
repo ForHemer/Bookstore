@@ -1,25 +1,27 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import { removeBook } from '../redux/books/books';
+import { deleteBook } from '../redux/books/books';
 import progress from '../img/progress.png';
 
-const ItemBook = (props) => {
+const ItemBook = ({
+  title,
+  author,
+  category,
+  id,
+}) => {
   const dispatch = useDispatch();
 
-  const {
-    id, title, author, categories,
-  } = props;
-
-  const handleRemoveBook = () => {
-    dispatch(removeBook(id));
+  const handleRemoveBook = (e) => {
+    e.preventDefault();
+    dispatch(deleteBook(id));
   };
 
   return (
     <div className="book-container">
       <div className="book-info">
         <div>
-          <span>{categories}</span>
+          <span>{category}</span>
           <h2>{title}</h2>
           <h3>{author}</h3>
         </div>
@@ -53,7 +55,7 @@ ItemBook.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  categories: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
 };
 
 export default ItemBook;
