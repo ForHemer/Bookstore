@@ -25,7 +25,7 @@ const ItemBook = ({
           <h2>{title}</h2>
           <h3>{author}</h3>
         </div>
-        <div>
+        <div className="com-rem-ed">
           <button type="button">Comments</button>
           <button type="button" onClick={handleRemoveBook}>Remove</button>
           <button type="button">Edit</button>
@@ -37,13 +37,13 @@ const ItemBook = ({
           <img className="progress-circle-bar" alt="progress-circle-bar" src={progress} />
         </div>
         <div className="reading-progress">
-          <p>64%</p>
-          <p>Completed</p>
+          <p className="pourcentage">64%</p>
+          <p className="completed">Completed</p>
         </div>
 
         <div className="reading-chapter">
-          <p>Current chapter</p>
-          <p>Chapter 4</p>
+          <p className="current-chapter">Current chapter</p>
+          <p className="chapter-title">Chapter 4</p>
           <button type="button">UPDATE PROGRESS</button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-.cms-header {
+header.cms-header {
   display: flex;
   height: 6rem;
   padding: 2rem;
@@ -6,7 +6,8 @@
   justify-content: space-between;
   align-items: center;
   font-family: Montserrat, sans-serif;
-  margin-bottom: 2rem;
+  margin-bottom: 2.375rem;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 .logo {
@@ -61,7 +62,7 @@ a {
   font-style: normal;
   line-height: normal;
   letter-spacing: 1.9px;
-  color: var(--black-two);
+  color: #aaa;
 }
 
 .book-container {
@@ -69,7 +70,9 @@ a {
   padding: 1rem;
   display: flex;
   border-radius: 4px;
-  border: solid 1px var(--white);
+  border: 2px solid #e8e8e8;
+
+  /* border: solid 1px var(--white); */
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -78,16 +81,20 @@ a {
 .book-stat {
   display: flex;
   justify-content: space-around;
-  max-width: 50%;
+  align-items: center;
+  width: 65%;
 }
 
 .book-info {
-  max-width: 50%;
+  max-width: 30%;
+  display: grid;
+  gap: 1.1rem;
+  margin-left: 00.875rem;
 }
 
 .progress-circle-bar {
-  width: 5.625rem;
-  height: 5.62rem;
+  width: 7.625rem;
+  height: 7.62rem;
   padding: 0.62rem 0.625rem 0.75rem 0.75rem;
 }
 
@@ -134,7 +141,7 @@ a {
   height: 2.813rem;
   padding: 0.8rem 1.2rem;
   border-radius: 3px;
-  font-family: RobotoSlab, sans-serif;
+  font-family: RobotoSlab, serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
@@ -144,14 +151,37 @@ a {
   text-align: center;
   color: #fff;
   background-color: #0692ff;
+  border: #0290ff;
 }
 
 .reading-progress {
-  display: grid;
+  margin-left: -15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+}
+
+.pourcentage {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #121212;
+}
+
+.completed {
+  margin: 0;
+  color: #121212;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
 }
 
 .reading-chapter {
   display: grid;
+  gap: 0.6rem;
 }
 
 .reading-chapter p {
@@ -165,4 +195,100 @@ a {
   line-height: normal;
   letter-spacing: normal;
   color: var(--black-two);
+}
+
+.book-info p {
+  opacity: 0.5;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.book-info h2 {
+  font-family: RobotoSlab, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: var(--black-two);
+}
+
+.book-info h3 {
+  font-family: RobotoSlab, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.com-rem-ed {
+  display: flex;
+  gap: 0.938rem;
+}
+
+.com-rem-ed button {
+  margin: 1.33rem 0 0 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button-control button {
+  height: 1.188rem;
+  margin-top: 0.835rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.835rem;
+  font-family: RobotoSlab, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background-color: #fff;
+  border: none;
+}
+
+.percentage {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #191919;
+}
+
+.reading-chapter button {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 300;
+  font-size: 0.813rem;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
