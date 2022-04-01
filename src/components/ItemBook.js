@@ -27,18 +27,18 @@ const ItemBook = ({
         </div>
         <div className="com-rem-ed">
           <button type="button">Comments</button>
-          <button type="button" onClick={handleRemoveBook}>Remove</button>
-          <button type="button">Edit</button>
+          <button className="left-separator" type="button" onClick={handleRemoveBook}>Remove</button>
+          <button className="left-separator" type="button">Edit</button>
         </div>
       </div>
       <div className="book-stat">
 
-        <div>
+        <div className="progress-container">
           <img className="progress-circle-bar" alt="progress-circle-bar" src={progress} />
-        </div>
-        <div className="reading-progress">
-          <p className="pourcentage">64%</p>
-          <p className="completed">Completed</p>
+          <div className="reading-progress">
+            <p className="pourcentage">64%</p>
+            <p className="completed">Completed</p>
+          </div>
         </div>
 
         <div className="reading-chapter">
