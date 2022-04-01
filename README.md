@@ -8,13 +8,16 @@
 
 ## Screenshot
 
-![Screenshot from 2022-03-25 20-45-40](https://user-images.githubusercontent.com/88809610/160217978-c357fc1c-6f80-47b8-ac1d-bd83acd4f675.png)
-
+![Screenshot from 2022-04-01 14-09-45](https://user-images.githubusercontent.com/88809610/161319112-a8f16af5-b1bf-4d17-b321-f04af22eb9b1.png)
 
  ## Built With
 
 - HTML, CSS, JavaScript
 - Technologies used: GitHub, VScode, nodejs, React, GIT.
+
+## Live Demo
+
+Click [here](https://hemerson-bookstore.herokuapp.com/) to see the live demo.
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps:
