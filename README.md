@@ -54,7 +54,7 @@ In order to install a local version of this project and please do the following 
 
 - GitHub: [@ForHemer](https://github.com/ForHemer)
 - Twitter: [@HemersonForeste](https://twitter.com/HemersonForeste)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste-890685197)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste)
 
 ## 🤝 Contributing
 
